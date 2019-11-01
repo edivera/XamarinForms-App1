@@ -6,9 +6,13 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <!--Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" /-->
+        <Label Text="Hi there, enter your name" />
+        <Entry x:Name="entry" />
+        <Button x:Name="button" Text="Submit" />
+        
     </StackLayout>
 
 </ContentPage>

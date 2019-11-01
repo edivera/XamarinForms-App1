@@ -12,6 +12,14 @@ namespace App1
         public MainPage()
         {
             InitializeComponent();
+
+            button.Clicked += Button_Clicked;
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            string name = entry.Text;
+            DisplayAlert("Hi there", $"Hello {name}", "OK");
         }
     }
 }
